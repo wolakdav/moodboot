@@ -8,12 +8,16 @@
             </v-card-title>
           <v-card flat>
             <v-card tile v-for="song in playlist.songs" :key="song.name">
+
               <v-row>
+              <v-avatar class="ml-2">
+                <v-img 
+                  max-height="50%" 
+                  max-width="50%" 
+                  src="https://lh3.googleusercontent.com/lMoItBgdPPVDJsNOVtP26EKHePkwBg-PkuY9NOrc-fumRtTFP4XhpUNk_22syN4Datc=s180">
+                </v-img>
+              </v-avatar>
                   <v-card-subtitle>{{song.name}} - {{song.length}}</v-card-subtitle>
-                  <v-progress-linear
-                  v-model: foo
-                  color="red">
-                  </v-progress-linear>
               </v-row>
             </v-card>
           </v-card>
@@ -34,7 +38,7 @@
       allplaylists : [
         { title: "list1",
         id:1,
-        songs: [{name:"song1",length:"10.23"},{name:"song1",length:"10.23"} ,{name:"song1",length:"10.23"} ]
+        songs: [{name:"song1",length:"10.23", link:"https://www.youtube.com/watch?v=S1fIW5kU2Zw"},{name:"song1",length:"10.23", link: "https://open.spotify.com/track/5kDJIZgf2UhN4W9C5hkXVE?si=WWSIHLZiTISFdZyW49cg9g"} ,{name:"song1",length:"10.23", link:"https://open.spotify.com/track/5kDJIZgf2UhN4W9C5hkXVE?si=WWSIHLZiTISFdZyW49cg9g"} ]
         },
                 { title: "list2",
         id:2,
