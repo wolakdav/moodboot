@@ -1,0 +1,26 @@
+{
+  "name": "moodbot",
+  "version": "1.0.0",
+  "description": "A bot for selecting moody music for dnd games",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/N/A.git"
+  },
+  "keywords": [
+    "music"
+  ],
+  "author": "Alicja, David, JT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/N/A/issues"
+  },
+  "homepage": "https://github.com/N/A#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "eslint": "^7.3.1"
+  }
+}
