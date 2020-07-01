@@ -45,6 +45,8 @@
 
 <script>
 import home from './components/home';
+import Vue from 'vue'
+import VueYouTubeEmbed from 'vue-youtube-embed'
 
 export default {
   name: 'App',
@@ -57,4 +59,6 @@ export default {
     //
   }),
 };
+Vue.use(VueYouTubeEmbed)
+
 </script>
